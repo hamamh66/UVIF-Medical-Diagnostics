@@ -1,42 +1,80 @@
-# UVIF-DQA: Variational Diagnostic Intelligence for Trustworthy Educational Question Answering
+# Diagnostic-Field UVIF
 
-## Overview
+## Diagnostic-Field Variational Intelligence for Medical Diagnosis
 
-This repository provides the official implementation and reproducible experimental framework for:
+This repository accompanies the research work:
 
-> **UVIF-DQA: Variational Diagnostic Intelligence and Reliability-Aware Evidence Selection for Trustworthy Educational Question Answering**
+**“Diagnostic-Field Variational Intelligence for Medical Diagnosis: A Unified Framework for Trustworthy, Interpretable, and Decision-Centric AI”**
 
-The proposed framework introduces a reliability-aware diagnostic reasoning architecture grounded in the Unified Variational Intelligence Framework (UVIF).
+The project introduces a diagnostic-field extension of the Unified Variational Intelligence Framework (UVIF), positioning diagnosis as a variational process in which intelligent systems sense, filter, interpret, and optimize over diagnostic fields derived from clinical and environmental information.
 
-## Key Contributions
+---
 
-- Reliability-aware educational QA
-- Variational evidence selection
-- Calibration-aware confidence modeling
-- Selective prediction analysis
-- Evidence stability evaluation
-- Public benchmark reproducibility using SciQ
+## Core Idea
 
-## Dataset
+The framework unifies three levels of diagnostic intelligence:
 
-```python
-from datasets import load_dataset
-dataset = load_dataset("allenai/sciq")
+1. Physical systems  
+2. Biological systems  
+3. Artificial intelligence systems  
+
+The framework proposes that sensing, diagnostics, and intelligence share a common variational structure.
+
+---
+
+## Repository Structure
+
+```text
+.
+├── Figures/
+├── Tables/
+├── Notebook/
+├── Outputs/
+├── Models/
+├── logs/
+└── README.md
 ```
 
-## Installation
+---
 
-```bash
-pip install -r requirements.txt
-```
+## Research Themes
+
+- Diagnostic AI
+- Explainable AI (XAI)
+- Clinical decision support
+- Trustworthy AI
+- Calibration-aware learning
+- Risk-aware medical diagnosis
+- Variational intelligence
+- Diagnostic-field optimization
+
+---
+
+## Potential Applications
+
+- Pneumonia diagnosis
+- Medical imaging AI
+- Prognosis and severity assessment
+- IoT-based healthcare systems
+- Multi-modal diagnostic systems
+- Risk-sensitive screening tools
+
+---
 
 ## Citation
 
 ```bibtex
-@misc{Hamam2026UVIFFDQA,
-  author       = {Habib Hamam and Fatma Mallek and Sghaier Guizani and Zeyad Alghamdi},
-  title        = {UVIF-DQA: Variational Diagnostic Intelligence and Reliability-Aware Evidence Selection for Trustworthy Educational Question Answering},
-  year         = {2026},
-  howpublished = {https://github.com/hamamh66/UVIF-DQA}
+@article{Hamam2026DFUVIF,
+  author  = {Habib Hamam and collaborators},
+  title   = {Diagnostic-Field Variational Intelligence for Medical Diagnosis: A Unified Framework for Trustworthy, Interpretable, and Decision-Centric AI},
+  journal = {Diagnostics},
+  year    = {2026},
+  note    = {Under review}
 }
 ```
+
+---
+
+## License
+
+This repository is intended for academic and research purposes.
